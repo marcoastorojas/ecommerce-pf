@@ -29,10 +29,9 @@ server.get("*", (req, res) => {
 conn.sync({ force: false }).then(() => {
 
   // Order.sync({ force: false })
+  const port = process.env.PORT | 3001
 
-  server.listen(process.env.PORT | 3001, () => {
-    console.log(`%s listening at ${process.env.PORT}`); // eslint-disable-line no-console
+  server.listen(port, () => {
+    console.log(`%s listening at ${port}`); // eslint-disable-line no-console
   });
 });
-
-
