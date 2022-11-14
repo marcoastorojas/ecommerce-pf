@@ -43,10 +43,10 @@ class PaymentService {
               },
               "back_urls": {                
               //"success": "http://localhost:3000"				                        
-               "success": "https://pf-ecommerce-ebon.vercel.app",			         
+               "success": "https://ecommerce-of.onrender.com",			         
                //"success": "https://pf-ecommerce-ebon.vercel.app",
-              "failure": "https://pf-ecommerce-ebon.vercel.app",
-              "pending": "https://pf-ecommerce-ebon.vercel.app"				         
+              "failure": "https://ecommerce-of.onrender.com/api",
+              "pending": "https://ecommerce-of.onrender.com/api"				         
                //"pending": "http://localhost:3000"				                        
               },              
           		"auto_return": "approved",
