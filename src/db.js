@@ -2,7 +2,6 @@ require("dotenv").config();
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } = process.env;
 
 // const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/test-2`, {
 const sequelize = new Sequelize(`postgres://kydplhct:NOFBLXCMfN9i7a1e1N373jixRGYszRnR@babar.db.elephantsql.com/kydplhct`, {

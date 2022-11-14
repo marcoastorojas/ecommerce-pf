@@ -8,7 +8,7 @@ const validJWT = (req = request, res = response, next) => {
     )
 
     try {
-        const data = jwt.verify(token, process.env.KEY_JWT)
+        const data = jwt.verify(token, "JWTSEcretKey!")
         req.userJWT = data
         next()
     } catch (error) {

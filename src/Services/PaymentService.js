@@ -57,7 +57,7 @@ class PaymentService {
         const payment = await axios.post(url, body, {
             headers: {
                 "Content-Type": "applitacion/json",
-                Authorization: `Bearer ${process.env.ACCESS_TOKEN}`
+                Authorization: `Bearer APP_USR-166065288313414-082412-282935deec413ed4621b1a2a1d4a46b9-1185509743`
             }
         });
 
